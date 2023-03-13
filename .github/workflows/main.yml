@@ -35,4 +35,4 @@ jobs:
         ln -s /opt/mirthsync-2.1.1/bin/mirthsync.sh /usr/local/bin/mirthsync.sh
         
     - name: mirthSync push
-      run: STAGE_URL=${{ secrets.STAGE_URL }} STAGE_USER=${{ secrets.STAGE_USER }} STAGE_PASS=${{ secrets.STAGE_PASS }} make push-remote
+      run: STAGE_URL=${{  https://mirth-server:8443/api }} STAGE_USER=${{ khusboo}} STAGE_PASS=${{ ELyu.FeMWHkX!9.sWq79Zjtrj$bQ9zpjaqMhZ!cw }} make push-remote
